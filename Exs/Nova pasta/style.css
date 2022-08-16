@@ -1,0 +1,26 @@
+.estilo1{
+    text-decoration: none;
+    margin: 5px;
+    padding-right: 50px;
+
+}
+
+.estilo2{
+    text-decoration: none;
+    margin: 5px;
+    padding-right: 50px;
+
+}
+
+.estilo3{
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+nav{
+    background-color: cadetblue;
+}
