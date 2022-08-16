@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{width: 500px;
+            border-collapse: collapse;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: green;
+            color: white;
+            
+        }
+        tfoot{
+            background-color: green;
+            color: white;
+
+        }
+        td.direta{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes!</h1>
+
+    <table>
+        <thead> <!-- Cabeça a tabela-->
+                <tr>
+                    <th>Estado</th>  <!-- th para cabeçalho-->
+                    <th>População</th>
+                </tr>
+        </thead>
+
+
+        <tbody> <!-- Copor da tabela -->
+            <tr>
+                <td>São Paulo</td> <!-- Corpo-->
+                <td class="direta">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="direta">50000</td>
+            </tr>
+            
+            <tr>
+                <td>Goias</td>
+                <td class="direta">30000</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot> <!--O roda pé da tabela-->
+            <th>Total Habitantes</th> <!--Titulo-->
+            <td class="direta"><strong>0000</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
