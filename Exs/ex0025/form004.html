@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 10px;
+            text-align: center;
+            font-size: small;
+            background-color: rgba(12, 155, 155, 0.438);
+            box-shadow: 10px rgb(194, 42, 42);
+
+        }
+        fieldset:hover{
+            background-color: white;
+            text-align: left;
+            transition: 1s;
+            border-radius: 50px;
+            background-color: aquamarine;
+            
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            padding: 8px;
+            text-decoration: underline;
+            text-align: center;
+
+
+        }
+        footer p{
+            
+            color: black;
+            padding-top: 100vh;
+            text-align: center;
+            background-color: rgb(2, 0, 0);
+            padding: 0%;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+body{
+    
+}
+
+    </style>
+</head>
+<body>
+    <h1><abbr title="Formulario Diferenciado">Formulario</abbr></h1>
+
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome"id="inome" minlength="5" maxlength="5" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel">
+            
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset"value=Limpar>
+        </p>
+        <footer>
+            <div>
+                <p>Criado por <a href="https://www.linkedin.com/in/bruno-manzini-mori-a9b138b5/" target="_blank">Bruno Manzini</a></p>
+            </div>
+        </footer>
+
+      
+<p>
+    <div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/55(16992170855)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+          z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+    </div>
+</p>
+
+    </form> 
+
+
+</body>
+</html>
