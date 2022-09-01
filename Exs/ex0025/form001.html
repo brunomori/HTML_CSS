@@ -12,18 +12,15 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <label for="nome">
-            <p>Nome:
-        </label> <input type="text" name="nome" id="nome"></p>
 
-        <label for="sobrenome">
-            <p>Sobrenome:
-        </label> <input type="text" name="sobrenome" id="sobrenome"></p>
-
-        <p><input type="submit" value="Enviar"></p>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="POST" autocomplete="off">
+        <p><label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Entrar"></p>
     </form>
-    
+</body>
 </body>
 </html>
