@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <p>
+        <label for="iest">Estado:</label>
+        <select name="estado" id="iest">
+        
+        <option value="" selected>--- Escolha um estado ---</option>
+
+        <optgroup label="Região central">
+            
+                <option value="SP">São Paulo</option>
+                <option value="Rj">Rio de Janeiro</option>
+                <option value="Mg">Minas Gerais </option>
+        </optgroup>
+
+        <optgroup label="Região central">
+    
+            <option value="PR">São Paulo</option>
+            <option value="AM">Rio de Janeiro</option>
+            <option value="PR">Minas Gerais </option>
+        </optgroup>
+        </select>
+
+
+    </p>
+
+    <p>
+        
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">Administração</option>
+            <option value="MED">Mediciona</option>
+            <option value="AGRO">Agro Neogocio</option>
+            <option value="ENF">Enfermagem</option>
+        </datalist>
+
+
+        
+         
+
+    </p>
+
+    <p>
+        <label for="imsg">Reposta</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </p>
+
+
+
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+
+    
+</body>
+</html>
