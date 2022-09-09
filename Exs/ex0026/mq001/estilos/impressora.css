@@ -12,3 +12,6 @@ html{
     line-height: 1.5em;
 }
 
+menu{
+    display: none;
+}
