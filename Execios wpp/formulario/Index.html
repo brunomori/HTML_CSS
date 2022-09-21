@@ -1,60 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Frist Fomulario</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <h2>Free Code Camp Survey Form</h2>
-        <h3>Thank you for taking the time to help us improve the platform</h3>
+    <div class="centro">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p><i>Thank you for taking the time to help us improve the platform</i></p>
+    </div>
 
-        <main>
-            <p>
-                <label for="inome">Nome</label>
-                <input type="name" name="nome" id="inome">
-            </p>
-            <br>
-
-            <p>
-                <label for="iemail">Email</label>
-                <input type="email" name="email" id="iemail">
-                
-            </p>
-
-            <br>
-
-            <p>
-                <label for="iidade">Idade</label>
-                <input type="number" name="idade" id="iidade">
-            </p>
-
-            <br>
-               
-            <p>Which option best describes your current role?</p>
-            <p>
-                <select name="função" id="ifuncao">
-                <option value="option">Selecione Uma opção</option>
-                <option value="Estudante">Estudante</option>
-                <option value="Trabalho">Trabalho Full time</option>
-                <option value="Professor">Professor Full time</option>
-
-            </p>
-            <br>
-                
-            <p>Would you recommend freeCodeCamp to a friend?
-              
-
+    <main class="central">
+        <form action="#" method="post" class="box">
+            <label for="inome">Name</label>
+            <input type="text" name="nome" id="inome" min="3" max="8" placeholder="Digite seu nome" required>
             
-            <label for="ibolinha"></label>
-            <input type="radio" name="bolinha" id="ibolinha">Definitely
-                    
-          
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" placeholder="brunomanzinimori@gmail.com" required>
+            <label for="iidade">Age(optional)</label>
+            <input type="number" name="idade" id="iidade">
+            <label for="option">Which option best describes your current role?</label>
+            <select name="option" id="option">
+                <option value="" selected disabled>Selected Current role</option>
+                <option value="op1">Student</option>
+                <option value="op2">Full Time Job</option>
+                <option value="op3">Full Time Learner</option>
+                <option value="op4">Prefer not to say</option>
+                <option value="op5">Other</option>
+            </select>
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <label for="ia"><input type="radio"name="a" id="ia">Definitely</label>
+            <label for="Maybe"><input type="radio"name="a" id="Maybe">Maybe</label>
+            <label for="No"><input type="radio"name="a" id="No">Not sure</label>
+            
+            <label for="option2">What is your favorite feature of freeCodeCamp?</label>
+            <select name="option2" id="ioption2">
+                <option value="" selected disabled>Select an option</option>
+                <option value="opp1">Challenges</option>
+                <option value="opp2">Projects</option>
+                <option value="opp3">Community</option>
+                <option value="opp4">Open Source</option>
+            </select>
+            <label for="">What would you like to see improved? (Check all that apply)</label>
+            <label for="1"><input type="checkbox" name="a1" id="1">Front-end Projects</label>
+            <label for="2"><input type="checkbox"name="a1"id="2">Back-end Projects</label>
+            <label for="3"><input type="checkbox"name="a1"id="3">Data Visualization</label>
+            <label for="4"><input type="checkbox"name="a1"id="4">Challenges</label>
+            <label for="5"><input type="checkbox"name="a1"id="5">Open Source Community</label>
+            <label for="6"><input type="checkbox"name="a1"id="6">Gitter help rooms</label>
+            <label for="7"><input type="checkbox"name="a1"id="7">Videos</label>
+            <label for="8"><input type="checkbox"name="a1"id="8">City Meetups</label>
+            <label for="9"><input type="checkbox"name="a1"id="9">Wiki</label>
+            <label for="10"><input type="checkbox"name="a1"id="10">Forum</label>
+            <label for="11"><input type="checkbox"name="a1"id="11">Additional Courses</label>
+            <label for="texto">Any comments or suggestions?</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite seu texto "></textarea>
+            <button type="submit" value="Subimit" class="botao">Subimit</button>
+        </form>
+    </main>
+    
 
-        </main>
-    </header>
+
+
+
 </body>
 </html>

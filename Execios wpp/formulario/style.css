@@ -1,5 +1,69 @@
 *{
-    margin: 1px;
+    margin: 0px;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), 
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 166vh;
+    flex-direction: column;
+    
+    
 }
 
+.central{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    justify-content: center;
+    background-color: #262646ce;
+    display: flex;
+    height: 130vh;
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+    color: white;
+    border-radius: 3px;
+    padding: 58px;  
+    align-self: center;
+    gap: 10px;
+         
+}
+
+
+.centro{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 27px;
+    color: white;
+    font-size: 0.9em;
+    gap: 10px;
+
+
+}
+
+.botao{
+    background-color:#37AF65;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 2px;
+
+}
+
+.botao:hover{
+    cursor: pointer;
+
+}
