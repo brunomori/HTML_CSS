@@ -10,9 +10,8 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 166vh;
+    height: 230vh;
     flex-direction: column;
-    
     
 }
 
@@ -25,7 +24,7 @@ body{
     justify-content: center;
     background-color: #262646ce;
     display: flex;
-    height: 130vh;
+    
     width: 30vw;
     background-size: cover;
     background-position: center;
@@ -49,8 +48,6 @@ body{
     color: white;
     font-size: 0.9em;
     gap: 10px;
-
-
 }
 
 .botao{
@@ -60,10 +57,9 @@ body{
     padding: 10px;
     margin-top: 15px;
     border-radius: 2px;
-
 }
 
 .botao:hover{
     cursor: pointer;
-
 }
+

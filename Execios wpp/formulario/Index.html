@@ -15,15 +15,15 @@
 
     <main class="central">
         <form action="#" method="post" class="box">
-            <label for="inome">Name</label>
-            <input type="text" name="nome" id="inome" min="3" max="8" placeholder="Digite seu nome" required>
-            
-            <label for="iemail">Email</label>
-            <input type="email" name="email" id="iemail" placeholder="brunomanzinimori@gmail.com" required>
-            <label for="iidade">Age(optional)</label>
-            <input type="number" name="idade" id="iidade">
-            <label for="option">Which option best describes your current role?</label>
-            <select name="option" id="option">
+            <label for="inome">Name:</label>
+            <input class="espace" type="text" name="nome" id="inome" min="3" max="8" placeholder="Digite seu nome" required>
+            <label for="iemail">Email:</label>
+            <input  class="espace" type="email" name="email" id="iemail" placeholder="brunomanzinimori@gmail.com" required>
+            <label for="iidade">Age(optional):</label>
+            <input  class="espace" type="number" name="idade" id="iidade">
+
+            <label  for="option">Which option best describes your current role?</label>
+            <select  class="espace" name="option" id="option">
                 <option value="" selected disabled>Selected Current role</option>
                 <option value="op1">Student</option>
                 <option value="op2">Full Time Job</option>
@@ -37,7 +37,7 @@
             <label for="No"><input type="radio"name="a" id="No">Not sure</label>
             
             <label for="option2">What is your favorite feature of freeCodeCamp?</label>
-            <select name="option2" id="ioption2">
+            <select  class="espace" name="option2" id="ioption2">
                 <option value="" selected disabled>Select an option</option>
                 <option value="opp1">Challenges</option>
                 <option value="opp2">Projects</option>
@@ -56,9 +56,24 @@
             <label for="9"><input type="checkbox"name="a1"id="9">Wiki</label>
             <label for="10"><input type="checkbox"name="a1"id="10">Forum</label>
             <label for="11"><input type="checkbox"name="a1"id="11">Additional Courses</label>
+
+            <label for="is" >Nivel de satisfação:
+            <input type="range" nome="sas" id="is">
+            </label>
+
+            <label for="idata">Data de Hoje:</label>
+            <input type="date" name="data" id="idata">
+
+           
+
+
             <label for="texto">Any comments or suggestions?</label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Digite seu texto "></textarea>
+            <textarea class="espace" name="" id="" cols="30" rows="10" placeholder="Digite seu texto" ></textarea>
+
             <button type="submit" value="Subimit" class="botao">Subimit</button>
+            <input type="reset" value="Limpar">
+
+            
         </form>
     </main>
     
