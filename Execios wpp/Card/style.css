@@ -1,0 +1,14 @@
+.postion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.card {
+    background-color: black;
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+    
+}
