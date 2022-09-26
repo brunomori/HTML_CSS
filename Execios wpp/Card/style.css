@@ -1,14 +1,69 @@
-.postion{
+.contrainer{
     display: flex;
     justify-content: center;
-    
+}
+
+body{
+    background-color: rgba(39, 46, 46, 0.233);
 }
 
 
-.card {
-    background-color: black;
-    height: 400px;
-    width: 250px;
+.card{
+    background-color: white;
+    width: 300px;
+    height: 550px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+
+}
+
+section img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px 15px 0px 0px;
+   
+
+}
+
+.texto{
+    text-align: center;
+    margin: 10px;
+    color:rgb(62, 62, 190);
+}
+
+.final{
+    background-color: rgb(62, 62, 190);
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+
+
+}
+
+.final:hover
+{
+    color: cadetblue;
     
+}
+
+.branco{
+    color: white;
+}
+
+
+p{
+    font-size: small;
+    text-align: center;
 }
