@@ -133,13 +133,26 @@
 
 }
 
-.botcard{
+.botcard1{
     color:#8A8D91 ;
     font-size: 12px;
+    
+    
     
 
 }
 
-.borda{
+.botcard2{
     border-bottom: #DDDFE2  solid 1px;
+    font-size: 12px;
+    color:#8A8D91 ;
+    padding: 13px;
+    display: flex;
+    justify-items: center;
+}
+
+
+.contrainer2{
+    display: flex;
+    
 }
