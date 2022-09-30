@@ -5,8 +5,9 @@
    
 }
 
-body{
+.fundo{
     background-color: #F0F2F5;
+    height: 90vh;
 }
 
 
@@ -46,14 +47,14 @@ body{
 
 .item{
    margin: 3.5px;
-   padding-left: 50px ;
-   padding-right: 50px ;
+   padding-left: 60px ;
+   padding-right: 60px ;
    padding-top: 10px;
    padding-bottom: 10px;
-   border-radius: 3px;
+   border-radius: 1px;
    border: #DDDFE2 solid 1px;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   
+
    
 }
 
@@ -73,8 +74,8 @@ body{
     border: none;
     color: white;
     border-radius: 3px;
-    margin-left: 60px;
-    margin-right: 60px ;
+    margin-left: 75px;
+    margin-right: 75px ;
     
     
 }
@@ -83,8 +84,8 @@ body{
     margin: -28px;
    margin-bottom: 1px;
    margin-top: 2px;
-    
-}
+  
+    }
 
 .imgpai{
     display: flex;
@@ -94,7 +95,7 @@ body{
 
 .p1{
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     font-size: 24px;
     
 }
@@ -119,4 +120,26 @@ body{
 
 .esquerda{
  
+}
+.p3{
+ 
+    height: 55px;
+}
+
+
+.botcontrainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.botcard{
+    color:#8A8D91 ;
+    font-size: 12px;
+    
+
+}
+
+.borda{
+    border-bottom: #DDDFE2  solid 1px;
 }
