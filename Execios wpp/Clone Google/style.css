@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------Divisão 1(Header)----------------------------- */
+.micro{
+    height: 28px;
+    width: auto;
+}
+
+.container1{
+    display: flex;
+    
+    height: 60px;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.card{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.padding{
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+/*------------------------------------------Divisão 1(Header)----------------------------- */
+
+
+/*--------------------------------------------Divisão 2(Main)-------------------------------- */
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+
+}
+
+.card2{
+    gap: 50px;
+    display: flex;
+}
+
+.pesquisa{
+    display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    max-width: 584px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.botao{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.botao:hover{
+    border: 1px solid #898e9262;
+}
+
+.pesquisa:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*--------------------------------------------Divisão 2(Main)-------------------------------- */
+
+
+/*--------------------------------------------Divisão 2(Footer)-------------------------------- */
+footer{
+    background-color:#F2F2F2 ;
+    height: 8vh;
+    width: 100%;
+    margin-bottom: auto;
+    
+}
+
+.container3{
+  
+    display: flex;
+
+}
+
+.card3{
+    display: flex;
+    gap: 30px;
+    
+
+}
