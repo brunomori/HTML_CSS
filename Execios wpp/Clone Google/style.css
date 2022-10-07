@@ -7,6 +7,9 @@
 .micro{
     height: 28px;
     width: auto;
+    transform: translateY(-36px);
+    display: flex;
+    margin-right: 61px;
 }
 
 .container1{
@@ -52,6 +55,9 @@
     gap: 50px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pesquisa{
@@ -103,7 +109,7 @@
 
 
 .Google{
-    background-color: #3c4043;
+  
     display: flex;
     justify-items: center;
     height: 100px;
@@ -119,12 +125,35 @@
 
 
 .direitaIcon{
-    background-color: #3c4043;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
     
+}
+
+.teclado{
+    width: 19px;
+    transform: translateY(-36px);
+    padding-right: 13px;
+    height: 15px;
+}
+
+
+.lupa{
+    transform: translateY(-112px);
+    padding-right: 438px;
+    color: #00000054;
 }
 
 
 .paiPesquisa{
+    
+}
+
+
+
+.pesuisar{
     
 }
 /*--------------------------------------------Divisão 2(Main)-------------------------------- */
