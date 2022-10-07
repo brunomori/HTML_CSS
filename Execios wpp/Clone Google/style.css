@@ -159,8 +159,8 @@
 
 /*--------------------------------------------Divisão 3(Footer)-------------------------------- */
 footer{
-    background-color:#F2F2F2 ;
-    height: 8vh;
+    background-color: rgb(242, 242, 242);
+    height: 7vh;
     width: 100%;
     margin-bottom: auto;
     
@@ -176,6 +176,18 @@ footer{
     display: flex;
     gap: 30px;
     flex-direction: column;
+    
+
+}
+
+.brasil{
+    padding-right: 50px;
+    
+}
+
+.sobre{
+    gap: 10px;
+    padding-left: 35px;
     
 
 }
