@@ -52,12 +52,12 @@
 }
 
 .card2{
-    gap: 50px;
     display: flex;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .pesquisa{
@@ -71,7 +71,7 @@
     max-width: 584px;
     margin-left: 50px;
     margin-right: 50px;
-    width: 500px;
+    width: 545px;
     justify-content: center;
 
 }
@@ -117,10 +117,13 @@
 }
 
 .cardgoogle{
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    width: 200px;
+   
+        display: flex;
+        flex-direction: column;
+        height: 52px;
+        width: 245px;
+        padding-bottom: 46px;
+  
 }
 
 
@@ -128,6 +131,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: -31px;
 
     
 }
@@ -141,16 +145,10 @@
 
 
 .lupa{
-    transform: translateY(-112px);
-    padding-right: 438px;
+    transform: translateY(-33px);
+    padding-right: 482px;
     color: #00000054;
 }
-
-
-.paiPesquisa{
-    
-}
-
 
 
 .pesuisar{
@@ -177,6 +175,7 @@ footer{
 .card3{
     display: flex;
     gap: 30px;
+    flex-direction: column;
     
 
 }
