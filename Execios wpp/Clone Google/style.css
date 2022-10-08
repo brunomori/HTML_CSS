@@ -15,6 +15,10 @@
     transform: translateY(-36px);
     display: flex;
     margin-right: 61px;
+    @media screen (max-width: 768px) {
+        height: 10px;
+    }
+
 }
 
 .container1{
