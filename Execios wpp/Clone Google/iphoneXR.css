@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width:767px) {
+@media screen and (max-width:414px) {
     
     .pesquisa{
         width: 102%;
@@ -9,7 +9,7 @@
 
 
     .container2 {
-        height: 83vh;
+        height: 79vh;
     }
 
     .containerSP {
