@@ -1,4 +1,12 @@
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+@charset "UFT-8";
+@media screen and (min-width: 768px) and (max-width: 1650px)  {
+
+    .pesquisa{
+        width: 55%;
+     
+    
+    }
     
     
 }
